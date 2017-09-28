@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Header.h"
 #include "Pair.h"
+#include <string>
 
 void Ejercicio1()
 {
@@ -14,6 +15,6 @@ void Ejercicio1()
 int main()
 {
 	Ejercicio1();
-	Pair<int> pareja(1, 2);
+	Pair<std::string> pareja("hola", "adios");
 	return 0;
 }
